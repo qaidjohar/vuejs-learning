@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/008%20Module%20Introduction.mp4</location>
+			<duration>45675</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/009%20Understanding%20VueJS%20Templates.mp4</location>
+			<duration>155051</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/010%20How%20the%20VueJS%20Template%20Syntax%20and%20Instance%20Work%20Together.mp4</location>
+			<duration>162390</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/011%20Accessing%20Data%20in%20the%20Vue%20Instance.mp4</location>
+			<duration>109952</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/012%20Binding%20to%20Attributes.mp4</location>
+			<duration>163136</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/013%20Understanding%20and%20Using%20Directives.mp4</location>
+			<duration>87851</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/014%20Disable%20Re-Rendering%20with%20v-once.mp4</location>
+			<duration>101462</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/015%20How%20to%20Output%20Raw%20HTML.mp4</location>
+			<duration>163862</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/016%20Listening%20to%20Events.mp4</location>
+			<duration>110784</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/017%20Getting%20Event%20Data%20from%20the%20Event%20Object.mp4</location>
+			<duration>156694</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/018%20Passing%20your%20own%20Arguments%20with%20Events.mp4</location>
+			<duration>113259</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/019%20Modifying%20an%20Event%20-%20with%20Event%20Modifiers.mp4</location>
+			<duration>203776</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/020%20Listening%20to%20Keyboard%20Events.mp4</location>
+			<duration>123819</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/021%20Writing%20JavaScript%20Code%20in%20the%20Templates.mp4</location>
+			<duration>199744</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/022%20Using%20Two-Way-Binding.mp4</location>
+			<duration>109611</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/023%20Reacting%20to%20Changes%20with%20Computed%20Properties.mp4</location>
+			<duration>572246</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/024%20An%20Alternative%20to%20Computed%20Properties%20Watching%20for%20Changes.mp4</location>
+			<duration>233472</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/025%20Saving%20Time%20with%20Shorthands.mp4</location>
+			<duration>86720</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/026%20Dynamic%20Styling%20with%20CSS%20Classes%20-%20Basics.mp4</location>
+			<duration>262763</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/027%20Dynamic%20Styling%20with%20CSS%20Classes%20-%20Using%20Objects.mp4</location>
+			<duration>96000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/028%20Dynamic%20Styling%20with%20CSS%20Classes%20-%20Using%20Names.mp4</location>
+			<duration>207851</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/029%20Setting%20Styles%20Dynamically%20%28without%20CSS%20Classes%29.mp4</location>
+			<duration>195968</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/030%20Styling%20Elements%20with%20the%20Array%20Syntax.mp4</location>
+			<duration>74432</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/qaidjohar/CA7A9DB47A9D9DAF/Study/Course/%5BFreeTutorials.Us%5D%20Udemy%20-%20vuejs-2-the-complete-guide/02%20Using%20VueJS%20to%20Interact%20with%20the%20DOM/031%20Module%20Wrap%20Up.mp4</location>
+			<duration>44907</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+			<vlc:item tid="20"/>
+			<vlc:item tid="21"/>
+			<vlc:item tid="22"/>
+			<vlc:item tid="23"/>
+	</extension>
+</playlist>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" v-on:input="changeTitle" />
+      <p v-once>
+        {{ title }}
+      </p>
+      <p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
+      <p>{{ finishedLink }}</p>
+      <p v-html="finishedLink"></p>
+      <hr />
+      <button v-on:click="increase(2)">Increase</button>
+      <button v-on:click="counter++">Increase Direct</button>
+      <p>{{ counter * 2 }}</p>
+
+      <p v-on:mousemove="updateCoordinates">
+        Coordinates: {{ x }} / {{ y }} -
+        <span v-on:mousemove="dummy">Dead Spot</span>
+      </p>
+
+      <p v-on:mousemove="updateCoordinates">
+        Coordinates: {{ x }} / {{ y }} -
+        <span v-on:mousemove.stop="">Dead Spot</span>
+      </p>
+      <!-- Alert on key press with enter and space -->
+      <input type="text" v-on:keyup.enter.space="alertme" />
+      <br />
+      <!-- Two Way Binding -->
+      <input type="text" v-model="name" />
+      <p>{{ name }}</p>
+      <hr />
+
+      <!-- Computed Properties -->
+      <button v-on:click="counter++">Increase</button>
+      <button v-on:click="counter--">Decrease</button>
+      <button v-on:click="secondCounter++">Second Counter</button>
+      <p>Counter: {{ counter }} | Second Counter: {{ secondCounter }}</p>
+      <p>Result: {{ result() }} | {{ output }}</p>
+    </div>
+
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          title: "Hello World",
+          link: "http://www.google.com",
+          finishedLink: '<a href="http://www.google.com">Google</a>',
+          counter: 0,
+          x: 0,
+          y: 0,
+          name: "MAX",
+          secondCounter: 0
+        },
+        computed: {
+          output: function() {
+            console.log("Computed");
+            return this.secondCounter > 5 ? "Greater than 5" : "Smaller than 5";
+          }
+        },
+        methods: {
+          changeTitle: function(event) {
+            this.title = event.target.value;
+          },
+          sayHello: function() {
+            return this.title;
+          },
+          increase: function(step) {
+            this.counter += step;
+          },
+          updateCoordinates: function(event) {
+            this.x = event.clientX;
+            this.y = event.clientY;
+          },
+          dummy: function(event) {
+            event.stopPropagation();
+          },
+          alertme: function() {
+            alert("Alert");
+          },
+          result: function() {
+            console.log("Method");
+            return this.counter > 5 ? "Greater than 5" : "Smaller than 5";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
