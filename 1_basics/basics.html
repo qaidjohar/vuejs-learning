@@ -5,7 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="vue.js"></script>
+    <script src="../vue.js"></script>
+    <style>
+      .demo {
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        display: inline-block;
+        margin: 10px;
+      }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
@@ -44,6 +62,21 @@
       <button v-on:click="secondCounter++">Second Counter</button>
       <p>Counter: {{ counter }} | Second Counter: {{ secondCounter }}</p>
       <p>Result: {{ result() }} | {{ output }}</p>
+      <hr />
+      <!-- Attach detach red -->
+      <div
+        class="demo"
+        @click="attachRed = !attachRed"
+        :class="{red: attachRed}"
+      ></div>
+      <hr />
+      <!-- CSS with vue -->
+      <div class="demo" :style="{backgroundColor: color}"></div>
+      <div class="demo" :style="myStyle"></div>
+      <div class="demo" :style="[myStyle, {height: width + 'px'}]"></div>
+      <hr />
+      <input type="text" v-model="color" />
+      <input type="text" v-model="width" />
     </div>
 
     <script>
@@ -57,12 +90,21 @@
           x: 0,
           y: 0,
           name: "MAX",
-          secondCounter: 0
+          secondCounter: 0,
+          attachRed: false,
+          color: "gray",
+          width: 100
         },
         computed: {
           output: function() {
             console.log("Computed");
             return this.secondCounter > 5 ? "Greater than 5" : "Smaller than 5";
+          },
+          myStyle: function() {
+            return {
+              backgroundColor: this.color,
+              width: this.width + "px"
+            };
           }
         },
         methods: {
