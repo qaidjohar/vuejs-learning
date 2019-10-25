@@ -21,13 +21,44 @@
       <p>You can also see me?</p>
 
       <button @click="show = !show">Switch</button>
+      <hr />
+      <ul>
+        <li v-for="ingredient in ingredients">{{ ingredient }}</li>
+      </ul>
+
+      <ul>
+        <li v-for="(ingredient,i) in ingredients" :key="ingredient">
+          {{ ingredient }}({{ i }})
+        </li>
+      </ul>
+      <button v-on:click="ingredients.push('spices')">Add</button>
+      <hr />
+      <ul>
+        <li v-for="dict in dicts">
+          <div v-for="(value,key,index) in dict">
+            {{ key }}:{{ value }} ({{ index }})
+          </div>
+        </li>
+      </ul>
+      <hr />
+      <span v-for="n in 10">{{ n }} </span>
+      <hr />
+      <template v-for="(ingredient,index) in ingredients">
+        <h3>{{ ingredient }}</h3>
+        <p>{{ index }}</p>
+      </template>
     </div>
 
     <script>
       new Vue({
         el: "#app",
         data: {
-          show: true
+          show: true,
+          ingredients: ["apple", "banana", "papaya"],
+          dicts: [
+            { k1: "v1", k2: "v2", k3: "v3" },
+            { k1: "v5", k2: 5, k3: "v6" }
+          ]
         },
         computed: {},
         methods: {}
